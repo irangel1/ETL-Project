@@ -10,14 +10,14 @@ Final data set used is:
 •	University Statistics (Ranking, Enrollment):  https://www.kaggle.com/theriley106/university-statistics 
 •	Salary Expectance: https://www.kaggle.com/jessemostipak/college-tuition-diversity-and-pay
 •	Income per state: https://worldpopulationreview.com/state-rankings/median-household-income-by-state
-https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income
+  https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income
 
 ## Data Cleanup & Analysis
 Please review csvs file for raw data sets
 Please review file etl_b-checkpoint.ipynb for code
 
 ### Extract Phase: 
-1.	From JSON file get Unievrsity, University Rank and Enrollment Rate
+1.	From JSON file get University, University Rank and Enrollment Rate
 2.	From salary_potential get University, Early Pay Career and Mid Career Pay
 3.	From tuiton_Cost get University, State
 4.	From US_Income14_18 get State, Median Income Household per year (2014 – 2018)
